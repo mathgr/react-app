@@ -14,17 +14,15 @@ export default function TableList({onChange, apiClient}) {
             </thead>
             <tbody>
                 <tr>
-                    <th>Example 1</th>
-                    <th>https://www.example-1.com</th>
-                    <th>https://link.example-1.com/Rdfiux67dbcs</th>
-                    <th>
+                    <td>Example 1</td>
+                    <td>https://www.example-1.com</td>
+                    <td>https://link.example-1.com/Rdfiux67dbcs</td>
+                    <td>
                         <ButtonGroup>
                             <Button color="primary" size="sm">Éditer</Button>
                             <Button color="danger" size="sm">Supprimer</Button>
                         </ButtonGroup>
-                    </th>
-                </tr>
-                <tr>
+                    </td>
                 </tr>
             </tbody>
         </Table>
